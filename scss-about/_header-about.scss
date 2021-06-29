@@ -1,0 +1,50 @@
+header {
+  height: 110vh;
+  margin: 1em;
+}
+.mobile_version a {
+  color: #555555;
+}
+.header_text {
+  padding-top: 2em;
+  color: #666666;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  font-family: "Work Sans", sans-serif;
+  h1 {
+    text-align: center;
+    color: #ec5242;
+    font-weight: 500;
+    font-size: large;
+    line-height: 2px;
+  }
+  h2 {
+    text-align: center;
+    color: #ec5242;
+    font: 500 bold;
+    line-height: 30px;
+    font-family: "Lato", sans-serif;
+  }
+  .highlight {
+    background-color: rgb(255, 255, 255);
+    color: #686868;
+    border: 1px solid #a3a3a3;
+    font-weight: lighter;
+    padding: 1em;
+    font-size: small;
+    line-height: 20px;
+  }
+  .contact {
+    font-weight: lighter;
+    padding: 1em;
+    font-size: medium;
+    color: #686868;
+  }
+  a {
+    color: #555555;
+    font-weight: lighter;
+    padding: 1em;
+    font-size: small;
+    text-decoration: none;
+  }
+}

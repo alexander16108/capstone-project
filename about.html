@@ -17,25 +17,59 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p
     " crossorigin="anonymous"/>
   <title>Capstone Project</title>
-  <link rel="stylesheet" href="./about.css">
+  <link rel="stylesheet" href="./scss-about/about.css">
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
 </head>
 <body>
-  <header>
-    <nav>
-<div class="mobile_version">
-  <span class="open_pop">  <a href="#"><i class="fas fa-bars fa-2x"></i></a></span>
-  <!-- <div class="menu"> -->
-    <!-- <ul class="hide_pop list">
-      <li class="close_pop"><a href="#">About</a></li>
-      <li class="close_pop"><a href="#">Program</a></li>
-      <li class="close_pop"><a href="#">Join</a></li>
-      <li class="close_pop"><a href="#">Sponsor</a></li>
-      <li class="close-menu"><a href="#"><i class="fas fa-times fa-2x"></i></a></li>
-    </ul> -->
-  <!-- </div> -->
+  <nav>
+    <!-- header and nav for mobile -->
+    <div class="mobile_version hide_me">
+      <span class="open_pop">
+        <a href="#"><i class="fas fa-bars fa-2x"></i></a
+      ></span>
+      <div class="menu">
+        <ul class="hide_pop list">
+          <li class="close_pop"><a href="#">About</a></li>
+          <li class="close_pop"><a href="#">Program</a></li>
+          <li class="close_pop"><a href="#">Join</a></li>
+          <li class="close_pop"><a href="#">Sponsor</a></li>
+          <li class="close-menu">
+            <a href="#"><i class="fas fa-times fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-</div>
-</nav>
+    <!-- header and nav for desktop version  -->
+
+    <div class="destop-version icon">
+      <ul class="icon_list">
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><p>English</p></li>
+        <li><p>My Page</p></li>
+        <li><p>Logout</p></li>
+      </ul>
+    </div>
+    <div class="navigation">
+      <div class="main-logo">
+        <img src="./image/ddt.png" alt="" />
+      </div>
+
+      <div class="right-nav">
+        <ul class="nav-list">
+          <li><a href="./about.html">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+          <button type="button" class="summit">DDT Summit</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
 <div class="header_text">
   <h1 class="small text">"Hello Tech World"</h1>
   <h2 class="topic">DRONE AND DRONE TAXI GLOBAL SUMMIT 2021</h2>
@@ -59,14 +93,32 @@ Drone and Drone taxi Summit 2021
 <hr class="slim">
 <p>The logo was designed and decided upon by the organisers of the Summit on may 21 2021</p>
 <div class="logo">
-  <img src="./image/logo_destop.png" alt="summit logo">
+  <img src="./image/ddt.png" alt="summit logo">
+</div>
+<div class="past-events">
+  
 </div>
 </section>
 
 <section class="partners">
-  
+  <h2>Partner</h2>
+  <hr class="slim">
+  <ul>
+    <li><i class="fab fa-firefox fa-3x"></i></i></li>
+    <li><i class="fab fa-google fa-3x"></i></li>
+    <li><i class="fab fa-apple fa-3x"></i></li>
+    <li><i class="fab fa-bitcoin fa-3x"></i></li>
+    <li><i class="fab fa-airbnb fa-3x"></i></li>
+  </ul>
 </section>
-
+<footer>
+  <div class="copyright">
+    <div class="coperation">
+      <i class="fad fa-drone-alt fa-2x"></i><p class="topic">Drones and Drone Taxi</p>
+    </div>
+    <span>2021 Drones and Drone Taxi Some Rights Reserved</span>
+  </div>
+</footer>
 
   <script src="./js/object.js"></script>
   <script src="./js/script.js"></script>

@@ -1,0 +1,139 @@
+@media screen and (min-width: 769px) {
+  .mobile_version {
+    display: none;
+  }
+  .header_text {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  /* header section */
+  .destop-version {
+    display: block;
+    background-color: #3e3e3e;
+    color: #efefef;
+    margin: 0%;
+    padding: 0%;
+    height: 3vh;
+    width: 100vw;
+    .icon_list {
+      list-style: none;
+      display: flex;
+      justify-content: end;
+      position: absolute;
+      /* top: 4%; */
+      left: 60%;
+      padding: 0%;
+      align-content: flex-end;
+      li {
+        padding: 0em 1.5em;
+        font-size: smaller;
+      }
+    }
+  }
+
+  /* second navigation */
+  .navigation {
+    background-color: white;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100vw;
+    .main-logo {
+      padding-left: 2em;
+      img {
+        width: 280px;
+      }
+    }
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+    padding-top: 1em;
+    li {
+      padding: 0em 2em;
+      a {
+        text-decoration: none;
+        color: #555555;
+      }
+      a:hover {
+        color: #ec5242;
+        box-shadow: #3b3e45;
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  .summit {
+    color: red;
+    background-color: white;
+    padding: 0%;
+    height: 0px;
+    border: 2px solid #ec5242;
+  }
+  .summit:hover {
+    color: #3e3e3e;
+    background: #ff4f38;
+    transform: scale(1.1);
+    border: none;
+  }
+
+  .header_text {
+    padding: 8em;
+    height: 50vh;
+     h1 {
+      font-size: 40px;
+      font-weight: 100;
+      padding: 0.3em 0;
+    }
+    h2 {
+      font-size: 45px;
+      font-weight: 800;
+      padding: 0.4em 0;
+    }
+    .highlight {
+      padding: 1em;
+      margin: 2em 16em 3em 0;
+      font-size: medium;
+    }
+  }
+  .large span {
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+
+  .main_program {
+    height: 80vh;
+  }
+  .content-body {
+    display: flex;
+    margin: 5em 0;
+    .content {
+      flex-direction: column;
+      width: 30vw;
+      height: 32vh;
+    }
+  }
+
+  .partners ul li .fab {
+    font-size: 70px;
+    font-weight: bold;
+    padding: 0 0.4em;
+  }
+  .rights span {
+    font-size: xx-large;
+    font-weight: 900;
+    .arabic {
+      display: contents;
+    }
+  }
+  /* hidden pages or icons  */
+  nav {
+    margin: 0em;
+  }
+  .hide_me {
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+footer {
+  height: 10vh;
+  color: #555555;
+  .copyright {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .coperation {
+      display: flex;
+    }
+    .topic {
+      font-weight: bolder;
+    }
+    span {
+      font-weight: lighter;
+      font-size: medium;
+    }
+  }
+}
