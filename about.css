@@ -1,0 +1,83 @@
+/* font for larger text */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+/* fonts for the small text */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #efefef;
+}
+
+  /* mobile-version */
+header {
+  height: 110vh;
+margin: 1em;
+  }
+    
+  .mobile_version a{
+color: #555555;
+  }
+
+  .header_text {
+    padding-top: 2em;
+color: #666666;
+scroll-snap-type: y mandatory;
+scroll-behavior: smooth;
+font-family: 'Work Sans', sans-serif;
+  }
+
+  .header_text h1, .header_text h2 {
+    text-align: center;
+    color: #ec5242;
+    font: 600 bold;
+    line-height: 30px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .highlight {
+    background-color: white;
+    color: #686868;
+    border: 1px solid #a3a3a3;
+    font-weight: lighter;
+    padding: 1em;
+    font-size: smaller;
+  }
+
+  .About-logo {
+    height: 160vh;
+    background: white;
+    text-align: center;
+  }
+
+  .About-logo h2 {
+color: #555555;
+font-family: 'Lato' sans-serif;
+font-size: x-large;
+text-align: center;
+font-weight: 500;
+  }
+  .slim {
+    color: #e03421;
+    width: 30px;
+    margin: 0 auto;
+  }
+
+  .slim {
+    border: 1px solid;
+  }
+
+  .About-logo p {
+font-size: small;
+font-family: 'Word Sans', sans-serif;
+color: #686868;
+padding: 2em 2em;
+  }
+
+  .logo img{
+    border: 1px solid #a09b9b;
+    width: 300px;
+    padding: 30px;
+  }
