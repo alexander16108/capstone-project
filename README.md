@@ -1,11 +1,17 @@
+
 # capstone-project
+
 
 ## Built With
 - JavaScript
 - HTML
 - CSS
 
-[live demo](http://github.com)
+
+## Demo of the project
+- [live demo of this project](https://alexander16108.github.io/capstone-project/)
+- [live video introduction of this project](https://www.loom.com/share/e7309ccdbce241749ca6a6f7d3debdd0)
+
 
 ## Getting Started
 - To get a local copy up and running follow these simple example steps.
@@ -13,17 +19,7 @@
 
 
 
-
-
-
-
-
-### Instructions
-To get a local copy up and running follow these simple example steps.
-
-$ cd
-
-$ git clone git@github.com/alexander16108/capstone-project.git
+$ git clone git@github.com:PolinaStamenova/Capstone-Latin-dance-page.git
 
 ## Install
 - Set up liveserver as an extension in your VS Code.
@@ -37,7 +33,10 @@ $ git clone git@github.com/alexander16108/capstone-project.git
 👤 Alexander Odufuye
 
 GitHub: @alexander16108
-LinkedIn: LinkedIn
+
+LinkedIn: Alexander Mayowa
+
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
