@@ -56,21 +56,3 @@
   }
 }
 
-.partners {
-  background: #272a31;
-  text-align: center;
-  color: #efefef;
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1em 0;
-    justify-content: center;
-    li {
-      list-style: none;
-      padding: 1.7em;
-      .fab {
-        color: #666666;
-      }
-    }
-  }
-}

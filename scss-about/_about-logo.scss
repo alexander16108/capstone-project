@@ -1,36 +1,131 @@
+@import "_image";
+
 .About-logo {
-  margin-top: 6em;
-  height: 160vh;
+  // margin-top: 6em;
+  // height: 160vh;
   background-color: white;
   text-align: center;
   h2 {
     color: #555555;
-    font-family: "Lato" sans-serif;
+    font-family: "Word Sans" sans-serif;
     font-size: x-large;
     text-align: center;
     font-weight: 500;
   }
   .slim {
-    color: #e03421;
-    width: 30px;
+    width: 20px;
     margin: 0 auto;
   }
 
   .slim {
-    border: 1px solid;
+    border: 1px solid #e03421;
   }
-
+img {
+  max-width: 100%;
+  margin: 1em 0;
+}
   p {
-    font-size: small;
-    font-family: "Word Sans", sans-serif;
+    font-size: medium;
+    font-family: "Lato", sans-serif;
     color: #686868;
     padding: 2em 2em;
+    font-weight: lighter;
   }
-  img {
-    border: 1px solid #a09b9b;
+  .logo-detail {
+    font-size: x-larger;
+    font-weight: bolder;
+  }
+  .summit {
+    border: 0.7px solid #666666;
     padding: 30px;
   }
-  img {
-    width: 200px;
+  .summit {
+    width: 300px;
+  }
+  .line {
+    color: #a09b9b;
   }
 }
+
+
+
+.past-activities {
+  margin: 5% 0;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activities {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .past-first-activity {
+    width: 80%;
+    min-height: 200px;
+    background: url($pathSequence);
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+    margin: 5% 0;
+    .first-activity-content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #ec5242;
+      opacity: 0.8;
+      color: #fff;
+      p {
+        color: #fff;
+      }
+    }
+  }
+  .past-second-activity {
+    width: 80%;
+    min-height: 200px;
+    background: url($imageAccess);
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+    margin: 5% 0;
+  }
+  .second-activity-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ec5242;
+    opacity: 0.8;
+    color: #fff;
+    p {
+      color: #fff;
+    }
+  }
+}
+.second-activity-content, .first-activity-content {
+  padding-top: 40px;
+  align-content: center;
+  p {
+    font-size: larger;
+  }
+}
+
+// .past-content {
+//   width: 80%;
+//   margin-top: 5%;
+//   font-size: 1.1rem;
+// }
+
+
+
+
+
+
+
