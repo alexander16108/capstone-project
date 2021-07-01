@@ -16,32 +16,30 @@
    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p
     " crossorigin="anonymous"/>
-  <title>Capstone Project</title>
+  <title>DDT </title>
+  <link rel="icon" href="./image/logo_mobile.png">
   <link rel="stylesheet" href="./scss-about/about.css">
   <!-- <link rel="stylesheet" href="./css/style.css"> -->
 </head>
 <body>
-  <nav>
-    <!-- header and nav for mobile -->
-    <div class="mobile_version hide_me">
-      <span class="open_pop">
-        <a href="#"><i class="fas fa-bars fa-2x"></i></a
-      ></span>
-      <div class="menu">
-        <ul class="hide_pop list">
-          <li class="close_pop"><a href="#">About</a></li>
-          <li class="close_pop"><a href="#">Program</a></li>
-          <li class="close_pop"><a href="#">Join</a></li>
-          <li class="close_pop"><a href="#">Sponsor</a></li>
-          <li class="close-menu">
-            <a href="#"><i class="fas fa-times fa-2x"></i></a>
-          </li>
-        </ul>
+  <header class="flex-column-center">
+    
+    <nav>
+      <!-- header and nav for mobile -->
+      <div class="nav-bg"></div>
+      <div class="mobile_version hide_me">
+        <div class="openPop" id="openPop"><i class="fas fa-bars fa-2x"></i></div>
+          <ul class="hidepop list nav-links" id="list">
+            <li class="closep"><a href="./index.html">Home</a></li>
+            <li class="closePop"><a href="#logo">Program</a></li>
+            <li class="closePop"><a href="#">Join</a></li>
+            <li class="closePop"><a href="#sponsor">Sponsor</a></li>
+            <div class="closeMenu"  id="closeMenu" ><a href="#topic"><i class="fas fa-times fa-2x"></i></a></div>
+            </ul>
       </div>
-    </div>
-
-    <!-- header and nav for desktop version  -->
-
+  
+      <!-- header and nav for desktop version  -->
+  <div class="desktop-version top-nav">
     <div class="destop-version icon">
       <ul class="icon_list">
         <li><i class="fab fa-facebook-f"></i></li>
@@ -55,52 +53,80 @@
       <div class="main-logo">
         <img src="./image/ddt.png" alt="" />
       </div>
-
       <div class="right-nav">
         <ul class="nav-list">
           <li><a href="./about.html">About</a></li>
           <li><a href="#">Program</a></li>
           <li><a href="#">Join</a></li>
-          <li><a href="#">Sponsor</a></li>
-          <li><a href="#">News</a></li>
+          <li class="pop-off"><a href="#">Sponsor</a></li>
+          <li class="pop-off"><a href="#">News</a></li>
           <button type="button" class="summit">DDT Summit</button>
         </ul>
       </div>
     </div>
-  </nav>
-
-  <header>
-<div class="header_text">
+  </div>
+    </nav>
+    <div class="header-bg"></div>
+<div class="header_text container">
   <h1 class="small text">"Hello Tech World"</h1>
   <h2 class="topic">DRONE AND DRONE TAXI GLOBAL SUMMIT 2021</h2>
   <p class="highlight">
-    In recent years, autonomous drones have begun to transform various application
-     areas as they can fly beyond visual line of sight (BVLOS) while maximizing production, reducing costs and risks, ensuring site safety,
-      security and regulatory compliance, and protecting the human workforce in times of a pandemic.
-     They can also be used for consumer-related missions like package delivery,
-     as demonstrated by Amazon Prime Air, and critical deliveries of health supplies.
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+Rem quibusdam porro accusamus doloremque eos magni voluptatibus totam quia quod! 
+Neque dolores porro quaerat at fugit nesciunt quod, aspernatur, 
+in dignissimos iure dolor expedita assumenda aut numquam tenetur adipisci repellat recusandae.
   </p>
   <p class="contact">
 please contact us per Email for any further question about 
 Drone and Drone taxi Summit 2021
   </p>
-  <a href="#">Dronesummit2021@outlook.com</a>
+  <div class="email">
+    <a href="#">Dronesummit2021@outlook.com</a>
+  </div>
+  
 </div>
   </header>
 
-<section class="About-logo">
+<section class="About-logo past-content" id="logo">
 <h2>Drone and Drones Taxi Global Summit 2021 Logo</h2>
 <hr class="slim">
-<p>The logo was designed and decided upon by the organisers of the Summit on may 21 2021</p>
+<img class="event-image" src="https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29uZmVyZW5jZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="conference meeting">
+<p class="description">
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+  Doloremque aliquid culpa esse, repellat a alias sit quas, 
+  eaque ab consequatur quidem, praesentium laborum.
+   Laborum rerum quia cupiditate magnam cumque quas!
+</p>
+<hr>
+<p class="logo-detaiil">The logo was designed and decided upon by the organisers of the Summit on may 21 2021</p>
 <div class="logo">
-  <img src="./image/ddt.png" alt="summit logo">
+  <img src="./image/ddt.png" alt="summit logo" class="summit logo-img">
 </div>
-<div class="past-events">
-  
+<hr class="line">
 </div>
+<div class="contain">
+  <h2>See the past DDT Global Summit </h2>
+  <hr class="slim">
+  <p>take a look at the last two DDT Global Summit which took place in japan and Hong-Kong </p>
+  <div class="activities">
+    <div class="past-first-activity">
+      <div class="first-activity-content first-year flex-column-center">
+        <h3>2020</h3>
+      <p>DDT Global Summit 2020 in Japan</p>
+      </div>
+        </div>
+        <div class="past-second-activity">
+          <div class="second-activity-content flex-column-center">
+      <h3>2019</h3>
+      <p>DDT Global Summit 2020 in Hong-Kong</p>
+          </div>
+        </div>
+  </div>
+</div>
+<hr class="full-horizontal-line" />
 </section>
 
-<section class="partners">
+<section class="partners" id="sponsor">
   <h2>Partner</h2>
   <hr class="slim">
   <ul>
@@ -114,9 +140,13 @@ Drone and Drone taxi Summit 2021
 <footer>
   <div class="copyright">
     <div class="coperation">
-      <i class="fad fa-drone-alt fa-2x"></i><p class="topic">Drones and Drone Taxi</p>
+    <img src="./image/logo_mobile.png" alt="logo-footer">
     </div>
-    <span>2021 Drones and Drone Taxi Some Rights Reserved</span>
+    <div class="rights reserve">
+    <p>2021 Drones and Drone Taxi Some Rights Reserved</p>
+    <br>
+    <p class="arabic">انضم إلينا في القمة العالمية للـ دي.دي.تي ونأمل أن نراك هناك</p>
+    </div>
   </div>
 </footer>
 

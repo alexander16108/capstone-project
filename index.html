@@ -28,57 +28,55 @@
     <!-- <link rel="stylesheet" href="./about.css"> -->
   </head>
   <body>
-    <nav>
-      <!-- header and nav for mobile -->
-      <div class="mobile_version hide_me">
-        <span class="open_pop">
-          <a href="#"><i class="fas fa-bars fa-2x"></i></a
-        ></span>
-        <div class="menu">
-          <ul class="hide_pop list">
-            <li class="close_pop"><a href="#">About</a></li>
-            <li class="close_pop"><a href="#">Program</a></li>
-            <li class="close_pop"><a href="#">Join</a></li>
-            <li class="close_pop"><a href="#">Sponsor</a></li>
-            <li class="close-menu">
-              <a href="#"><i class="fas fa-times fa-2x"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- header and nav for desktop version  -->
-
-      <div class="destop-version icon">
-        <ul class="icon_list">
-          <li><i class="fab fa-facebook-f"></i></li>
-          <li><i class="fab fa-twitter"></i></li>
-          <li><p>English</p></li>
-          <li><p>My Page</p></li>
-          <li><p>Logout</p></li>
-        </ul>
-      </div>
-      <div class="navigation">
-        <div class="main-logo">
-          <img src="./image/ddt.png" alt="" />
-        </div>
-
-        <div class="right-nav">
-          <ul class="nav-list">
-            <li><a href="./about.html">About</a></li>
-            <li><a href="#">Program</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Sponsor</a></li>
-            <li><a href="#">News</a></li>
-            <button type="button" class="summit">DDT Summit</button>
-          </ul>
-        </div>
-      </div>
-    </nav>
+   
     <header>
+      <div class="header-bg"></div>
+      <nav>
+        <!-- header and nav for mobile -->
+        <div class="mobile_version hide_me">
+          <div class="openPop" id="openPop"><i class="fas fa-bars fa-2x"></i></div>
+            <ul class="hidepop list nav-links" id="list">
+              <li class="closep"><a href="./about.html">About</a></li>
+              <li class="closePop"><a href="#">Program</a></li>
+              <li class="closePop"><a href="#">Join</a></li>
+              <li class="closePop"><a href="#">Sponsor</a></li>
+              <div class="closeMenu"  id="closeMenu" ><a href="#topic"><i class="fas fa-times fa-2x"></i></a></div>
+              </ul>
+        </div>
+  
+        <!-- header and nav for desktop version  -->
+  
+        <div class="destop-version icon">
+          <ul class="icon_list">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><p>English</p></li>
+            <li><p>My Page</p></li>
+            <li><p>Logout</p></li>
+          </ul>
+        </div>
+        <div class="navigation">
+          <div class="main-logo">
+            <img src="./image/ddt.png" alt="" />
+          </div>
+  
+          <div class="right-nav">
+            <ul class="nav-list">
+              <li><a href="./about.html">About</a></li>
+              <li><a href="#">Program</a></li>
+              <li class="pop-off"><a href="#">Join</a></li>
+              <li class="pop-off"><a href="#">Sponsor</a></li>
+              <li><a href="#">News</a></li>
+              <div class="summit-button">
+                <button type="button" class="summit">DDT Summit</button>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div class="header_text">
         <h1 class="small text">"Hello Tech World"</h1>
-        <h2 class="topic">DRONE AND DRONE TAXI 2021</h2>
+        <h2 class="topic" id="topic">DRONE AND DRONE TAXI 2021</h2>
         <p class="highlight">
           The future of passenger drones remains uncertain since this technology
           is so new. Innovation in aerial drone technology, and in aerial
@@ -150,7 +148,24 @@
       </div>
     </section>
 
-    <section class="feature_speakers"></section>
+    <section class="feature_speakers flex-column-center">
+      <div class="feature-container">
+        <h2>Featured Speakers</h2>
+        <hr class="slim">
+      </div>
+   
+      <ul>
+
+      </ul>
+      <button
+      type="button"
+      name="join-us"
+      class="btn speakers-btn"
+      onclick="toggleSpeakers()"
+    >
+      MORE <i class="fas fa-angle-down down-arrow"></i>
+    </button>
+    </section>
 
     <section class="partners">
       <h2>Partner</h2>
@@ -166,12 +181,12 @@
     <footer>
       <div class="copyright">
         <div class="coperation">
-          <i class="fad fa-drone-alt fa-2x"></i><p class="topic">Drones and Drone Taxi</p>
+        <img src="./image/logo_mobile.png" alt="logo-footer">
         </div>
         <div class="rights reserve">
-        <span>2021 Drones and Drone Taxi Some Rights Reserved</span>
+        <p>2021 Drones and Drone Taxi Some Rights Reserved</p>
         <br>
-        <span class="arabic">انضم إلينا في القمة العالمية للـ دي.دي.تي ونأمل أن نراك هناك</span>
+        <p class="arabic">انضم إلينا في القمة العالمية للـ دي.دي.تي ونأمل أن نراك هناك</p>
         </div>
       </div>
     </footer>
