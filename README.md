@@ -7,7 +7,7 @@
 ## Getting Started
 - To get a local copy up and running follow these simple example steps.
 
-[live demo](http://github.com)
+[live demo](https://alexander16108.github.io/capstone-project/)
 
 
 
