@@ -3,16 +3,13 @@
 - JavaScript
 - HTML
 - CSS
-- 
+
+## Demo of the project
+- [live demo of this project](https://alexander16108.github.io/capstone-project/)
+- [live video introduction of this project](https://alexander16108.github.io/capstone-project/)
+
 ## Getting Started
 - To get a local copy up and running follow these simple example steps.
-
-[live demo of this project](https://alexander16108.github.io/capstone-project/)
-
-
-
-
-
 
 
 ### Instructions
