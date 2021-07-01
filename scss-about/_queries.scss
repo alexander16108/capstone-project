@@ -59,32 +59,28 @@
 
   .main-logo {
     padding-left: 2em;
-  }
-
-  .main-logo img {
-    width: 280px;
+    img {
+          width: 280px;
+    }
   }
 
   .nav-list {
     display: flex;
     list-style: none;
     padding-top: 1em;
-  }
-
-  .nav-list li {
-    padding: 0em 2em;
     align-items: center;
-  }
-
-  .nav-list li a {
-    text-decoration: none;
-    color: #555555;
-  }
-
-  .nav-list li a:hover {
-    color: #ec5242;
-    box-shadow: #3b3e45;
-    transform: scale(1.2);
+    li {
+      padding: 0em 2em;
+      a {
+        text-decoration: none;
+        color: #555555;
+        :hover {
+          color: #ec5242;
+          box-shadow: #3b3e45;
+          transform: scale(1.2);
+        }
+      }
+    }
   }
 
   .summit {
@@ -101,7 +97,7 @@
     :hover {
       color: #3e3e3e;
       background: #ff4f38;
-      transform: scale(1.1);
+      transform: scale(1.2);
       border: none;
     }
   }
@@ -174,6 +170,12 @@
       }
     }
   }
+
+  .logo img {
+    width: 200px;
+    height: auto;
+  }
+
 
   .second-activity-content,
   .first-activity-content {

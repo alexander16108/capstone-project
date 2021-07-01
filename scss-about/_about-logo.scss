@@ -20,10 +20,16 @@
   .slim {
     border: 1px solid #e03421;
   }
-img {
-  max-width: 100%;
-  margin: 1em 0;
-}
+  .event-image {
+    width: 80%;
+    margin: 1em 0;
+  }
+  .logo img  {
+    margin: 1em 0;
+    width: 300px;
+    height: auto;
+  }
+
   p {
     font-size: medium;
     font-family: "Lato", sans-serif;
@@ -46,8 +52,6 @@ img {
     color: #a09b9b;
   }
 }
-
-
 
 .past-activities {
   margin: 5% 0;
@@ -109,23 +113,11 @@ img {
     }
   }
 }
-.second-activity-content, .first-activity-content {
+.second-activity-content,
+.first-activity-content {
   padding-top: 40px;
   align-content: center;
   p {
     font-size: larger;
   }
 }
-
-// .past-content {
-//   width: 80%;
-//   margin-top: 5%;
-//   font-size: 1.1rem;
-// }
-
-
-
-
-
-
-
