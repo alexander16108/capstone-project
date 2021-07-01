@@ -30,10 +30,12 @@ $ git clone git@github.com:PolinaStamenova/Capstone-Latin-dance-page.git
 - Right click and open the index.html in your browser to view.
 
 ### Authors
-👤 Polina Stamenova
+👤 Alexander Odufuye
 
 GitHub: @alexander16108
-LinkedIn: LinkedIn
+
+LinkedIn: Alexander Mayowa
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
