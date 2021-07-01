@@ -24,7 +24,8 @@
       crossorigin="anonymous"
     />
     <title>Capstone Project</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link rel="icon" href="./asset/image/logo_mobile.png">
     <!-- <link rel="stylesheet" href="./about.css"> -->
   </head>
   <body>
@@ -40,7 +41,7 @@
               <li class="closePop"><a href="#">Program</a></li>
               <li class="closePop"><a href="#">Join</a></li>
               <li class="closePop"><a href="#">Sponsor</a></li>
-              <div class="closeMenu"  id="closeMenu" ><a href="#topic"><i class="fas fa-times fa-2x"></i></a></div>
+              <span class="closeMenu"  id="closeMenu" ><a href="#topic"><i class="fas fa-times fa-2x"></i></a></span>
               </ul>
         </div>
   
@@ -57,7 +58,7 @@
         </div>
         <div class="navigation">
           <div class="main-logo">
-            <img src="./image/ddt.png" alt="" />
+            <img src="./asset/image/ddt.png" alt="logo" />
           </div>
   
           <div class="right-nav">
@@ -94,6 +95,7 @@
     </header>
 
     <section class="main_program">
+      <div class="main_program_content"></div>
       <div class="head">
         <h2>Main Program</h2>
         <hr class="slim" />
@@ -149,29 +151,21 @@
     </section>
 
     <section class="feature_speakers flex-column-center">
+      <div class="speaker_background"></div>
       <div class="feature-container">
         <h2>Featured Speakers</h2>
         <hr class="slim">
       </div>
-   
-      <ul>
+      <ul class="feature-list">
 
       </ul>
-      <button
-      type="button"
-      name="join-us"
-      class="btn speakers-btn"
-      onclick="toggleSpeakers()"
-    >
-      MORE <i class="fas fa-angle-down down-arrow"></i>
-    </button>
-    </section>
+     </section>
 
     <section class="partners">
       <h2>Partner</h2>
       <hr class="slim">
       <ul>
-        <li><i class="fab fa-firefox fa-3x"></i></i></li>
+        <li><i class="fab fa-firefox fa-3x"></i></li>
         <li><i class="fab fa-google fa-3x"></i></li>
         <li><i class="fab fa-apple fa-3x"></i></li>
         <li><i class="fab fa-bitcoin fa-3x"></i></li>
@@ -181,7 +175,7 @@
     <footer>
       <div class="copyright">
         <div class="coperation">
-        <img src="./image/logo_mobile.png" alt="logo-footer">
+        <img src="./asset/image/logo_mobile.png" alt="logo-footer">
         </div>
         <div class="rights reserve">
         <p>2021 Drones and Drone Taxi Some Rights Reserved</p>
@@ -191,8 +185,8 @@
       </div>
     </footer>
 
-    <script src="./js/object.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./asset/js/object.js"></script>
+    <script src="./asset/js/script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

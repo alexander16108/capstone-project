@@ -47,7 +47,8 @@ nav,
       -ms-flex-align: center;
           align-items: center;
   background-color: #272a33;
-  /* transition: top 5s ease-in; */
+  -webkit-transition: top 2s ease;
+  transition: top 2s ease;
   list-style: none;
 }
 
@@ -214,9 +215,15 @@ header .header-bg {
   border: 1px solid #e03421;
 }
 
-.About-logo img {
-  max-width: 100%;
+.About-logo .event-image {
+  width: 80%;
   margin: 1em 0;
+}
+
+.About-logo .logo img {
+  margin: 1em 0;
+  width: 300px;
+  height: auto;
 }
 
 .About-logo p {
@@ -330,13 +337,15 @@ header .header-bg {
   color: #fff;
 }
 
-.second-activity-content, .first-activity-content {
+.second-activity-content,
+.first-activity-content {
   padding-top: 40px;
   -ms-flex-line-pack: center;
       align-content: center;
 }
 
-.second-activity-content p, .first-activity-content p {
+.second-activity-content p,
+.first-activity-content p {
   font-size: larger;
 }
 
@@ -358,9 +367,6 @@ header .header-bg {
   color: #ec5242;
   width: 30px;
   margin: 0 auto;
-}
-
-.head h2 .slim {
   border: 1px solid;
 }
 
@@ -551,7 +557,7 @@ footer .copyright span {
     padding-left: 2em;
   }
   .main-logo img {
-    width: 280px;
+    width: 480px;
   }
   .nav-list {
     display: -webkit-box;
@@ -559,18 +565,18 @@ footer .copyright span {
     display: flex;
     list-style: none;
     padding-top: 1em;
-  }
-  .nav-list li {
-    padding: 0em 2em;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .nav-list li {
+    padding: 0em 2em;
   }
   .nav-list li a {
     text-decoration: none;
     color: #555555;
   }
-  .nav-list li a:hover {
+  .nav-list li a :hover {
     color: #ec5242;
     -webkit-box-shadow: #3b3e45;
             box-shadow: #3b3e45;
@@ -592,8 +598,8 @@ footer .copyright span {
   .summit :hover {
     color: #3e3e3e;
     background: #ff4f38;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
     border: none;
   }
   .header_text {
@@ -663,6 +669,10 @@ footer .copyright span {
   }
   .About-logo .activities .past-first-activity {
     margin: 0 auto;
+  }
+  .logo img {
+    width: 00px;
+    height: auto;
   }
   .second-activity-content,
   .first-activity-content {
