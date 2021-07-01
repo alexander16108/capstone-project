@@ -502,7 +502,7 @@ footer .copyright span {
   /* header section */
   nav,
   .header_text {
-    padding: 0em;
+    padding: 0%;
   }
   .destop-version {
     display: block;
@@ -528,9 +528,9 @@ footer .copyright span {
         align-content: flex-end;
   }
   .icon_list li {
-    padding: 0em 1.5em;
-    font-size: smaller;
-    font: xx-large;
+    padding: 0 1.5em;
+    font-size: xx-large;
+    font-weight: lighter;
   }
   /* second navigation */
   .navigation {

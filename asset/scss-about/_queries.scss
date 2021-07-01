@@ -2,6 +2,7 @@
   .mobile_version {
     display: none;
   }
+
   .header_text {
     width: 100vw;
   }
@@ -11,7 +12,7 @@
   /* header section */
   nav,
   .header_text {
-    padding: 0em;
+    padding: 0%;
   }
 
   .destop-version {
@@ -35,9 +36,9 @@
   }
 
   .icon_list li {
-    padding: 0em 1.5em;
-    font-size: smaller;
-    font: xx-large;
+    padding: 0 1.5em;
+    font-size: xx-large;
+    font-weight: lighter;
   }
 
   /* second navigation */
@@ -59,6 +60,7 @@
 
   .main-logo {
     padding-left: 2em;
+
     img {
           width: 480px;
     }
@@ -69,8 +71,10 @@
     list-style: none;
     padding-top: 1em;
     align-items: center;
+
     li {
       padding: 0em 2em;
+
       a {
         text-decoration: none;
         color: #555555;
@@ -94,6 +98,7 @@
     border-right: none;
     border-bottom: none;
     padding: 0%;
+
     :hover {
       color: #3e3e3e;
       background: #ff4f38;
@@ -105,36 +110,42 @@
   .header_text {
     padding: 8em;
     height: 80vh;
+
     h1 {
       font-size: 40px;
       font-weight: 100;
       padding: 0.3em;
       text-align: center;
     }
+
     h2 {
       font-size: 40px;
       font-weight: 700;
       padding: 0.4em 0;
       line-height: 45px;
     }
+
     .highlight {
       padding: 1em;
       font-size: large;
       text-align: center;
       line-height: 22px;
     }
+
     .contact {
       font-size: x-large;
       font-weight: bold;
       text-align: center;
       // color: #ec5242;
     }
+    
     .email a {
       font-size: x-large;
       font-weight: 700;
       word-spacing: 5px;
     }
   }
+
   .large span {
     font-size: xx-large;
     font-weight: bolder;
@@ -144,23 +155,27 @@
     width: 100%;
     padding: 0%;
     margin: 0%;
+
     h2 {
       padding-top: 1em;
       font-size: 30px;
       font-weight: 600;
       text-align: center;
     }
+
     .event-image {
       width: 60vw;
       height: 300px;
       padding-top: 40px;
     }
+
     .description,
     .logo-detail {
       font-size: 22px;
       font-weight: 400;
       padding: 0 4em;
     }
+
     .activities {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -181,6 +196,7 @@
   .first-activity-content {
     padding-top: 40px;
     align-content: center;
+
     p {
       font-size: larger;
     }
@@ -194,6 +210,7 @@
   .rights p {
     font-size: larger;
     font-weight: 600;
+    
     .arabic {
       display: contents;
     }
