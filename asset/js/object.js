@@ -44,7 +44,7 @@ const data = {
     },
   ],
 };
-const myProjects = data.speakerDetails;
+// const myProjects = data.speakerDetails;
 // IMPLEMENT PORTFOLIO PROJECTS
 function implementSpeakers() {
   const speakersWrap = document.querySelector('.feature_speakers ul');
