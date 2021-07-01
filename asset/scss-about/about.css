@@ -28,6 +28,22 @@ nav,
   color: #f7f7f7;
 }
 
+.mobile_version a {
+  color: #555555;
+}
+
+.closeMenu {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #ff4f38;
+}
+
+.closeMenu a {
+  color: #ff4f38;
+}
+
 .nav-links {
   display: none;
   height: 100vh;
@@ -60,7 +76,6 @@ nav,
   text-decoration: none;
   color: #ec5242;
   font-size: x-large;
-  font-weight: medium;
 }
 
 .nav-links li a :hover {
@@ -77,18 +92,6 @@ nav,
   display: flex;
 }
 
-.closeMenu {
-  display: block;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: #ff4f38;
-}
-
-.closeMenu a {
-  color: #ff4f38;
-}
-
 header {
   height: 95vh;
   display: -webkit-box;
@@ -100,13 +103,8 @@ header {
           flex-direction: column;
 }
 
-.mobile_version a {
-  color: #555555;
-}
-
 .destop-version,
-.navigation,
-.menu {
+.navigation .menu {
   display: none;
 }
 
@@ -199,8 +197,8 @@ header .header-bg {
 }
 
 .About-logo h2 {
-  color: #555555;
-  font-family: "Word Sans" sans-serif;
+  color: #555;
+  font-family: 'Word Sans' sans-serif;
   font-size: x-large;
   text-align: center;
   font-weight: 500;
