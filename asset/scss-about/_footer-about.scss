@@ -2,22 +2,24 @@
   background: #272a31;
   text-align: center;
   color: #efefef;
+
   .slim {
     width: 30px;
+    border: 1px solid #e03421;
     margin: 0 auto;
   }
-  .slim {
-    border: 1px solid #e03421;
-  }
+
   ul {
     padding: 0%;
     display: flex;
     flex-wrap: wrap;
     margin: 1em 0 0 0;
     justify-content: center;
+
     li {
       list-style: none;
       padding: 1.7em;
+
       .fab {
         color: #666666;
       }
@@ -29,26 +31,32 @@ footer {
   margin: 0%;
   height: 15vh;
   background-color: white;
-  color: #555555;
+  color: #555;
+
   .copyright {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+
     .coperation {
       display: flex;
+
       img {
         width:150px;
         padding: 30px;    
       }
     }
+
     .topic {
       font-weight: bolder;
       margin: 0%;
       text-align: center;
     }
+
     span {
       font-weight: lighter;
       font-size: medium;
     }
   }
+  
 }

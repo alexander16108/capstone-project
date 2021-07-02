@@ -62,7 +62,7 @@
     padding-left: 2em;
 
     img {
-          width: 480px;
+      width: 480px;
     }
   }
 
@@ -73,14 +73,15 @@
     align-items: center;
 
     li {
-      padding: 0em 2em;
+      padding: 0 2em;
 
       a {
         text-decoration: none;
-        color: #555555;
+        color: #555;
+
         :hover {
           color: #ec5242;
-          box-shadow: #3b3e45;
+          // box-shadow: #3b3e45;
           transform: scale(1.2);
         }
       }
@@ -138,7 +139,7 @@
       text-align: center;
       // color: #ec5242;
     }
-    
+
     .email a {
       font-size: x-large;
       font-weight: 700;
@@ -191,7 +192,6 @@
     height: auto;
   }
 
-
   .second-activity-content,
   .first-activity-content {
     padding-top: 40px;
@@ -210,23 +210,27 @@
   .rights p {
     font-size: larger;
     font-weight: 600;
-    
+
     .arabic {
       display: contents;
     }
+
   }
   /* hidden pages or icons  */
   nav {
     margin: 0em;
   }
+
   .hide_me {
     display: none;
   }
 }
+
 @media screen and (max-width: 1150px) {
   .pop-off {
     display: none;
   }
+  
   .content h3,
   .content p {
     font-size: 12px;

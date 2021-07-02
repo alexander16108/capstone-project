@@ -129,12 +129,12 @@ header .header-bg {
 }
 
 .mobile_version a {
-  color: #555555;
+  color: #555;
 }
 
 .header_text {
   padding-top: 2em;
-  color: #666666;
+  color: #666;
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
@@ -142,18 +142,20 @@ header .header-bg {
 }
 
 .header_text h1 {
-  text-align: center;
-  color: #e93c29;
-  font-weight: 600;
   font-size: x-large;
   line-height: 2px;
 }
 
 .header_text h2 {
+  font-size: larger;
+  line-height: 30px;
+}
+
+.header_text h1,
+.header_text h2 {
+  font-weight: 600;
   text-align: center;
   color: #e93c29;
-  font: 600 larger;
-  line-height: 30px;
   font-family: "Lato", sans-serif;
 }
 
@@ -187,8 +189,6 @@ header .header-bg {
 
 .header_text .email :hover {
   color: #ec5242;
-  -webkit-box-shadow: #c8c8c8;
-          box-shadow: #c8c8c8;
 }
 
 .About-logo {
@@ -207,9 +207,6 @@ header .header-bg {
 .About-logo .slim {
   width: 20px;
   margin: 0 auto;
-}
-
-.About-logo .slim {
   border: 1px solid #e03421;
 }
 
@@ -238,11 +235,8 @@ header .header-bg {
 }
 
 .About-logo .summit {
-  border: 0.7px solid #666666;
+  border: 0.7px solid #666;
   padding: 30px;
-}
-
-.About-logo .summit {
   width: 300px;
 }
 
@@ -421,11 +415,8 @@ header .header-bg {
 
 .partners .slim {
   width: 30px;
-  margin: 0 auto;
-}
-
-.partners .slim {
   border: 1px solid #e03421;
+  margin: 0 auto;
 }
 
 .partners ul {
@@ -454,7 +445,7 @@ footer {
   margin: 0%;
   height: 15vh;
   background-color: white;
-  color: #555555;
+  color: #555;
 }
 
 footer .copyright {
@@ -568,16 +559,14 @@ footer .copyright span {
             align-items: center;
   }
   .nav-list li {
-    padding: 0em 2em;
+    padding: 0 2em;
   }
   .nav-list li a {
     text-decoration: none;
-    color: #555555;
+    color: #555;
   }
   .nav-list li a :hover {
     color: #ec5242;
-    -webkit-box-shadow: #3b3e45;
-            box-shadow: #3b3e45;
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
   }

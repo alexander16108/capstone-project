@@ -17,16 +17,18 @@
   .slim {
     width: 20px;
     margin: 0 auto;
+    border: 1px solid #e03421;
   }
 
   .slim {
-    border: 1px solid #e03421;
+
   }
 
   .event-image {
     width: 80%;
     margin: 1em 0;
   }
+
   .logo img {
     margin: 1em 0;
     width: 300px;
@@ -47,11 +49,8 @@
   }
 
   .summit {
-    border: 0.7px solid #666666;
+    border: 0.7px solid #666;
     padding: 30px;
-  }
-
-  .summit {
     width: 300px;
   }
 
@@ -124,8 +123,8 @@
     position: relative;
     opacity: 0.8;
     margin: 5% 0;
-
   }
+  
   .past-second-activity {
     width: 80%;
     min-height: 200px;
