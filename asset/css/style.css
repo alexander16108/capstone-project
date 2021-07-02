@@ -108,7 +108,7 @@ nav,
   color: #666;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .header_text h1,
@@ -133,7 +133,7 @@ nav,
 }
 
 .venue {
-font-weight: bold;
+  font-weight: bold;
   font-size: 15px;
 }
 
@@ -251,10 +251,10 @@ button {
 }
 
 .feature-details4,
- .feature-details5,
-  .feature-details6 {
-    display: none;
-  }
+.feature-details5,
+.feature-details6 {
+  display: none;
+}
 
 .feature-speaker {
   flex-wrap: wrap;
@@ -356,7 +356,7 @@ button {
 
 .partners ul {
   display: -webkit-box;
-  display: -ms-flexbox;
+  /* display: -ms-flexbox; */
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -372,12 +372,12 @@ button {
 }
 
 .partners ul li .fab {
-  color: #666666;
+  color: #666;
 }
 
 footer {
   height: 9vh;
-  color: #555555;
+  color: #555;
 }
 
 footer .copyright {
@@ -389,7 +389,6 @@ footer .copyright {
 
 footer .copyright .coperation {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -429,7 +428,7 @@ footer .copyright span {
   /* header section */
   nav,
   .header_text {
-    padding: 0em;
+    padding: 0%;
   }
 
   .destop-version {
@@ -453,9 +452,8 @@ footer .copyright span {
   }
 
   .icon_list li {
-    padding: 0em 1.5em;
+    padding: 0 1.5em;
     font-size: smaller;
-    font: xx-large;
   }
 
   /* second navigation */
@@ -483,21 +481,21 @@ footer .copyright span {
     display: flex;
     list-style: none;
     padding-top: 1em;
-    /* margin: 0%; */
+
   }
 
   .nav-list li {
-    padding: 0em 2em;
+    padding: 0 2em;
   }
 
   .nav-list li a {
     text-decoration: none;
-    color: #555555;
+    color: #555;
   }
 
   .nav-list li a:hover {
-    color: #ec5242;
-    box-shadow: #3b3e45;
+    /* color: #ec5242;
+    box-shadow: #3b3e45; */
     transform: scale(1.2);
   }
 
@@ -507,18 +505,15 @@ footer .copyright span {
 
   .main_program {
     width: 100vw;
+    height: 100vh;
     flex-wrap: wrap;
   }
-
-  .content {
-    height: 30vh;
-  }
-
+  
   .summit {
     color: red;
     background-color: white;
     padding: 0%;
-    height: 0px;
+    height: 0%;
     border: 2px solid #ec5242;
   }
 
@@ -580,12 +575,9 @@ footer .copyright span {
     font: xx-large bolder;
   }
 
-  .main_program {
-    height: 100vh;
-  }
-
   .content-body {
     display: flex;
+    height: 30vh;
     margin: 5em 0;
   }
 
@@ -598,6 +590,7 @@ footer .copyright span {
   .content h3 {
     font-size: x-large;
   }
+
   .content p {
     font-size: large;
   }
@@ -624,7 +617,7 @@ footer .copyright span {
 
   /* hidden pages or icons  */
   nav {
-    margin: 0em;
+    margin: 0%;
   }
 
   .hide_me {

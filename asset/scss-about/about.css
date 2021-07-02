@@ -230,7 +230,7 @@ header .header-bg {
 }
 
 .About-logo .logo-detail {
-  font-size: x-larger;
+  font-size: x-large;
   font-weight: bolder;
 }
 
@@ -438,7 +438,7 @@ header .header-bg {
 }
 
 .partners ul li .fab {
-  color: #666666;
+  color: #666;
 }
 
 footer {
@@ -548,6 +548,25 @@ footer .copyright span {
   .main-logo img {
     width: 480px;
   }
+  .summit {
+    color: red;
+    background-color: white;
+    text-align: center;
+    margin: 0%;
+    height: 50px;
+    border: 1px solid #ec5242;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 0%;
+  }
+  .summit :hover {
+    color: #3e3e3e;
+    background: #ff4f38;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    border: none;
+  }
   .nav-list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -569,25 +588,6 @@ footer .copyright span {
     color: #ec5242;
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
-  }
-  .summit {
-    color: red;
-    background-color: white;
-    text-align: center;
-    margin: 0%;
-    height: 50px;
-    border: 1px solid #ec5242;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    padding: 0%;
-  }
-  .summit :hover {
-    color: #3e3e3e;
-    background: #ff4f38;
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    border: none;
   }
   .header_text {
     padding: 8em;
@@ -658,7 +658,7 @@ footer .copyright span {
     margin: 0 auto;
   }
   .logo img {
-    width: 00px;
+    width: 100px;
     height: auto;
   }
   .second-activity-content,
@@ -683,9 +683,8 @@ footer .copyright span {
   .rights p .arabic {
     display: contents;
   }
-  /* hidden pages or icons  */
   nav {
-    margin: 0em;
+    margin: 0%;
   }
   .hide_me {
     display: none;

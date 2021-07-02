@@ -66,6 +66,26 @@
     }
   }
 
+  .summit {
+    color: red;
+    background-color: white;
+    text-align: center;
+    margin: 0%;
+    height: 50px;
+    border: 1px solid #ec5242;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 0%;
+
+    :hover {
+      color: #3e3e3e;
+      background: #ff4f38;
+      transform: scale(1.2);
+      border: none;
+    }
+  }
+
   .nav-list {
     display: flex;
     list-style: none;
@@ -85,26 +105,6 @@
           transform: scale(1.2);
         }
       }
-    }
-  }
-
-  .summit {
-    color: red;
-    background-color: white;
-    text-align: center;
-    margin: 0%;
-    height: 50px;
-    border: 1px solid #ec5242;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-    padding: 0%;
-
-    :hover {
-      color: #3e3e3e;
-      background: #ff4f38;
-      transform: scale(1.2);
-      border: none;
     }
   }
 
@@ -181,6 +181,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 2em;
+
       .past-first-activity {
         margin: 0 auto;
       }
@@ -188,7 +189,7 @@
   }
 
   .logo img {
-    width: 00px;
+    width: 100px;
     height: auto;
   }
 
@@ -216,9 +217,9 @@
     }
 
   }
-  /* hidden pages or icons  */
+
   nav {
-    margin: 0em;
+    margin: 0%;
   }
 
   .hide_me {
@@ -230,7 +231,7 @@
   .pop-off {
     display: none;
   }
-  
+
   .content h3,
   .content p {
     font-size: 12px;
