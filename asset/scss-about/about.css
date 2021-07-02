@@ -236,6 +236,13 @@ header .header-bg {
   color: #a09b9b;
 }
 
+.content span,
+.content p {
+  font-family: "Work Sans", sans-serif;
+  font-size: small;
+  text-align: justify;
+}
+
 .past-activities {
   margin: 5% 0;
   margin-top: 10%;
@@ -370,13 +377,6 @@ header .header-bg {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.content span,
-.content p {
-  font-family: "Work Sans", sans-serif;
-  font-size: small;
-  text-align: justify;
 }
 
 .content h3 {
