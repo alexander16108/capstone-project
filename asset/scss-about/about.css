@@ -5,7 +5,6 @@ body {
 
 nav {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -88,14 +87,12 @@ nav,
 
 .list.show {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 header {
   height: 95vh;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -135,7 +132,6 @@ header .header-bg {
 .header_text {
   padding-top: 2em;
   color: #666;
-  -ms-scroll-snap-type: y mandatory;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif;
@@ -248,7 +244,6 @@ header .header-bg {
   margin: 5% 0;
   margin-top: 10%;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -277,7 +272,6 @@ header .header-bg {
 .activities {
   width: 100%;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -367,12 +361,9 @@ header .header-bg {
   background-color: #3b3e45;
   margin: 12px;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: #d6d6d6;
   height: 24vh;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -422,7 +413,6 @@ header .header-bg {
 .partners ul {
   padding: 0%;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -460,7 +450,6 @@ footer .copyright {
 
 footer .copyright .coperation {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -484,7 +473,7 @@ footer .copyright span {
   .mobile_version {
     display: none;
   }
-  
+
   .header_text {
     width: 100vw;
   }
@@ -510,7 +499,6 @@ footer .copyright span {
   .icon_list {
     list-style: none;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -581,7 +569,6 @@ footer .copyright span {
 
   .nav-list {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     list-style: none;
     padding-top: 1em;
@@ -653,6 +640,7 @@ footer .copyright span {
     padding: 0%;
     margin: 0%;
   }
+
   .About-logo h2 {
     padding-top: 1em;
     font-size: 30px;
@@ -701,6 +689,7 @@ footer .copyright span {
   .first-activity-content p {
     font-size: larger;
   }
+
   .partners ul li .fab {
     font-size: 70px;
     font-weight: bold;
