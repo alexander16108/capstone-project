@@ -17,9 +17,28 @@ body {
 }
 
 /* mobile-version */
+
 header {
-  margin: 1em;
+  /* margin: 1em; */
+  height: 100%;
+  position: relative;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  margin: 0%;
 }
+
+header .header-bg {
+  position: absolute;
+  height: 100%;
+  background: url("https://images.unsplash.com/photo-1523133045649-1a132addedd4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGRyb25lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  width: 100%;
+  opacity: 0.4;
+}
+
 
 nav,
 .header_text {
@@ -29,6 +48,22 @@ nav,
 .openPop {
   cursor: pointer;
   display: block;
+}
+
+.mobile_version a {
+  color: #555;
+}
+
+.closeMenu {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #ff4f38;
+}
+
+.closeMenu a {
+  color: #ff4f38;
 }
 
 .nav-links {
@@ -54,8 +89,8 @@ nav,
 .nav-links li a {
   text-decoration: none;
   color: #ec5242;
-  font-size: lighter;
-  font-weight: x-large;
+  font-size: x-large;
+  font-weight: lighter;
 }
 
 .nav-links li a:hover {
@@ -69,52 +104,12 @@ nav,
   display: flex;
 }
 
-.closeMenu {
-  display: block;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: #ff4f38;
-}
-
-.closeMenu a {
-  color: #ff4f38;
-}
-
-/* .list {
-  display: flex;
-} */
-
-.mobile_version a {
-  color: #555555;
-}
-
 .header_text {
   padding-top: 2em;
-  color: #666666;
+  color: #666;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  font-family: "Work Sans", sans-serif;
-}
-
-header {
-  height: 100%;
-  position: relative;
-  width: 100%;
-  top: 0%;
-  left: 0%;
-  margin: 0%;
-}
-
-header .header-bg {
-  position: absolute;
-  height: 100%;
-  background: url("https://images.unsplash.com/photo-1523133045649-1a132addedd4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGRyb25lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: -1;
-  width: 100%;
-  opacity: 0.4;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .header_text h1,
@@ -270,7 +265,7 @@ button {
   padding: 10px 0;
   justify-content: center;
   text-align: center;
-  background-color: #555555;
+  background-color: #555;
   width: 300px;
   border-radius: 20px;
 }
@@ -648,7 +643,7 @@ footer .copyright span {
   .pop-off {
     display: none;
   }
-  
+
   .content h3,
   .content p {
     font-size: 12px;
