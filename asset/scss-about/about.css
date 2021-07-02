@@ -90,16 +90,6 @@ nav,
   display: flex;
 }
 
-header {
-  height: 95vh;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
 .destop-version,
 .navigation .menu {
   display: none;
@@ -116,6 +106,13 @@ header {
   background-repeat: no-repeat;
   opacity: 0.8;
   margin-bottom: 2em;
+  /* height: 95vh; */
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 header .header-bg {
