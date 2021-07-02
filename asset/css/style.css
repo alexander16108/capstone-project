@@ -1,7 +1,9 @@
 /* font for larger text */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+
 /* fonts for the small text */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400&display=swap");
+
 * {
   margin: 0%;
   padding: 0%;
@@ -52,8 +54,8 @@ nav,
 .nav-links li a {
   text-decoration: none;
   color: #ec5242;
-  font-size: x-large;
-  font-weight: medium;
+  font-size: lighter;
+  font-weight: x-large;
 }
 
 .nav-links li a:hover {
@@ -646,6 +648,7 @@ footer .copyright span {
   .pop-off {
     display: none;
   }
+  
   .content h3,
   .content p {
     font-size: 12px;
