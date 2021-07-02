@@ -1,6 +1,7 @@
 
 # capstone-project
 
+![image](https://user-images.githubusercontent.com/60612329/124297090-98a9d400-db52-11eb-90bb-97d511ec632f.png)
 
 ## Built With
 - JavaScript
