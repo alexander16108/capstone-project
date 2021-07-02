@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/60612329/124297090-98a9d400-db52-11eb-90bb-97d511ec632f.png)
+![image](https://user-images.githubusercontent.com/60612329/124332631-ccecb700-db89-11eb-8f79-3193f8a0c883.png)
 ## Built With
 - JavaScript
 - HTML
@@ -43,4 +43,5 @@ Give a ⭐️ if you like this project!
 
 Acknowledgments
 Microverse
-Creative Commons
+[Cindy Shin](https://www.behance.net/adagio07)
+[Creative Commons Licence](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
