@@ -110,7 +110,6 @@ header {
   background-repeat: no-repeat;
   opacity: 0.8;
   margin-bottom: 2em;
-  /* height: 95vh; */
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -124,10 +123,6 @@ header .header-bg {
   height: 100vh;
   z-index: -1;
   width: 100%;
-}
-
-.mobile_version a {
-  color: #555;
 }
 
 .header_text {
