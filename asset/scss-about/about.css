@@ -43,7 +43,8 @@ nav,
   color: #ff4f38;
 }
 
-.nav-list {
+.nav-list,
+.navigation {
   display: none;
 }
 
@@ -120,7 +121,7 @@ header {
 
 header .header-bg {
   position: absolute;
-  height: 100vh;
+  height: 100%;
   z-index: -1;
   width: 100%;
 }
@@ -473,7 +474,7 @@ footer .copyright span {
   }
 
   header {
-    height: 120vh;
+    height: 100%;
   }
 
   .destop-version {
@@ -586,7 +587,7 @@ footer .copyright span {
 
   .header_text {
     padding: 8em;
-    height: 80vh;
+    /* height: 80vh; */
     width: 100vw;
   }
 
