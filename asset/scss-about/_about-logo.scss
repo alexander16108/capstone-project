@@ -5,13 +5,15 @@
   // height: 160vh;
   background-color: white;
   text-align: center;
+
   h2 {
     color: #555;
-    font-family: 'Word Sans' sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: x-large;
     text-align: center;
     font-weight: 500;
   }
+
   .slim {
     width: 20px;
     margin: 0 auto;
@@ -20,6 +22,7 @@
   .slim {
     border: 1px solid #e03421;
   }
+
   .event-image {
     width: 80%;
     margin: 1em 0;
@@ -37,17 +40,21 @@
     padding: 2em 2em;
     font-weight: lighter;
   }
+
   .logo-detail {
     font-size: x-larger;
     font-weight: bolder;
   }
+
   .summit {
     border: 0.7px solid #666666;
     padding: 30px;
   }
+
   .summit {
     width: 300px;
   }
+
   .line {
     color: #a09b9b;
   }
@@ -62,43 +69,38 @@
   align-items: center;
 }
 
+.second-activity-content,
+.first-activity-content {
+  padding-top: 40px;
+  align-content: center;
+
+  p {
+    font-size: larger;
+  }
+}
+
 .activities {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  .past-first-activity {
-    width: 80%;
-    min-height: 200px;
-    background: url($pathSequence);
-    background-size: cover;
-    position: relative;
+
+  .first-activity-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ec5242;
     opacity: 0.8;
-    margin: 5% 0;
-    .first-activity-content {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: #ec5242;
-      opacity: 0.8;
+    color: #fff;
+
+    p {
       color: #fff;
-      p {
-        color: #fff;
-      }
     }
   }
-  .past-second-activity {
-    width: 80%;
-    min-height: 200px;
-    background: url($imageAccess);
-    background-size: cover;
-    position: relative;
-    opacity: 0.8;
-    margin: 5% 0;
-  }
+
   .second-activity-content {
     width: 100%;
     height: 100%;
@@ -108,16 +110,29 @@
     background-color: #ec5242;
     opacity: 0.8;
     color: #fff;
+
     p {
       color: #fff;
     }
   }
-}
-.second-activity-content,
-.first-activity-content {
-  padding-top: 40px;
-  align-content: center;
-  p {
-    font-size: larger;
+
+  .past-first-activity {
+    width: 80%;
+    min-height: 200px;
+    background: url($pathSequence);
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+    margin: 5% 0;
+
+  }
+  .past-second-activity {
+    width: 80%;
+    min-height: 200px;
+    background: url($imageAccess);
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+    margin: 5% 0;
   }
 }
