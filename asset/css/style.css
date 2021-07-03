@@ -48,7 +48,7 @@ header .header-bg {
 h1,
 h2,
 h3 {
-  font-family: "Cocogoose";
+  font-family: "Cocogoose", sans-serif;
 }
 
 nav,
@@ -131,7 +131,7 @@ nav,
 }
 
 .header_text h2 {
-font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .highlight {
@@ -423,6 +423,12 @@ footer .copyright span {
     font-size: 15px;
   }
 
+  .partners ul li .fab {
+    font-size: 70px;
+    font-weight: bold;
+    padding: 0 0.4em;
+  }
+
   .icon_list li .fab:hover {
     color: #ec5242;
   }
@@ -434,7 +440,6 @@ footer .copyright span {
     display: grid;
     grid-template-columns: 30% 70%;
     width: 100vw;
-
     font-weight: 600;
     justify-content: center;
     z-index: 1;
@@ -556,10 +561,6 @@ footer .copyright span {
     font-weight: 600;
   }
 
-  .large span {
-    font: 22px bolder;
-  }
-
   .content-body {
     display: flex;
     height: 30vh;
@@ -578,12 +579,6 @@ footer .copyright span {
 
   .content p {
     font-size: 17px;
-  }
-
-  .partners ul li .fab {
-    font-size: 70px;
-    font-weight: bold;
-    padding: 0 0.4em;
   }
 
   .rights p {
