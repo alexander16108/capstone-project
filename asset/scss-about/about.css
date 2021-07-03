@@ -1,6 +1,7 @@
-body {
-  background-color: #f7f7f7;
+* {
+  padding: 0%;
   margin: 0%;
+  box-sizing: border-box;
 }
 
 nav {
@@ -28,7 +29,7 @@ nav,
 }
 
 .mobile_version a {
-  color: #555;
+  color: #272a31;
 }
 
 .closeMenu {
@@ -66,7 +67,7 @@ nav,
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #272a33;
+  background-color: #272a31;
   -webkit-transition: top 2s ease;
   transition: top 2s ease;
   list-style: none;
@@ -109,7 +110,6 @@ header {
   background: url("https://images.unsplash.com/photo-1486611367184-17759508999c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGRyb25lc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.8;
   margin-bottom: 2em;
   display: -webkit-box;
   display: flex;
@@ -128,19 +128,19 @@ header .header-bg {
 
 .header_text {
   padding-top: 2em;
-  color: #666;
+  color: #d3d3d3;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif;
 }
 
 .header_text h1 {
-  font-size: x-large;
+  font-size: 20px;
   line-height: 2px;
 }
 
 .header_text h2 {
-  font-size: larger;
+  font-size: 20px;
   line-height: 30px;
 }
 
@@ -148,25 +148,25 @@ header .header-bg {
 .header_text h2 {
   font-weight: 600;
   text-align: center;
-  color: #e93c29;
+  color: #ec5242;
   font-family: "Lato", sans-serif;
 }
 
 .header_text .highlight {
   background-color: white;
-  color: #686868;
-  border: 1px solid #a3a3a3;
+  color: #272a31;
+  border: 1px solid #d3d3d3;
   font-weight: lighter;
   padding: 1em;
-  font-size: small;
+  font-size: 14px;
   line-height: 20px;
 }
 
 .header_text .contact {
   font-weight: lighter;
   padding: 1em;
-  font-size: medium;
-  color: #fff;
+  font-size: 17px;
+  color: #f3f3f3;
 }
 
 .header_text .email {
@@ -190,7 +190,7 @@ header .header-bg {
 }
 
 .About-logo h2 {
-  color: #555;
+  color: #272a31;
   font-family: "Work Sans", sans-serif;
   font-size: x-large;
   text-align: center;
@@ -341,7 +341,7 @@ header .header-bg {
 
 .main_program {
   height: 170vh;
-  background-color: #272a33;
+  background-color: #272a31;
 }
 
 .partners .slim {
@@ -393,7 +393,7 @@ header .header-bg {
 }
 
 .button button {
-  background: #ff4f38;
+  background: #ec5242;
   color: #efefef;
   border: none;
   height: 12vh;
@@ -404,7 +404,7 @@ header .header-bg {
 .partners {
   background: #272a31;
   text-align: center;
-  color: #efefef;
+  color: #d3d3d3;
 }
 
 .partners ul {
@@ -425,14 +425,14 @@ header .header-bg {
 }
 
 .partners ul li .fab {
-  color: #666;
+  color: #d3d3d3;
 }
 
 footer {
   margin: 0%;
   height: 15vh;
   background-color: white;
-  color: #555;
+  color: #272a31;
 }
 
 footer .copyright {
@@ -479,12 +479,12 @@ footer .copyright span {
 
   .destop-version {
     display: block;
-    background-color: #3e3e3e;
+    background-color: #272a31;
     color: #efefef;
     margin: 0%;
     padding: 0%;
     height: 3vh;
-    width: 100vw;
+    width: 100%;
   }
 
   .icon_list {
@@ -516,7 +516,7 @@ footer .copyright span {
     display: grid;
     -ms-grid-columns: 30% 70%;
     grid-template-columns: 30% 70%;
-    width: 100vw;
+    width: 100%;
     font-size: larger;
     font-weight: 600;
     -webkit-box-pack: center;
@@ -576,7 +576,7 @@ footer .copyright span {
 
   .nav-list li a {
     text-decoration: none;
-    color: #555;
+    color: #272a31;
   }
 
   .nav-list li a :hover {
@@ -587,7 +587,6 @@ footer .copyright span {
 
   .header_text {
     padding: 8em;
-    /* height: 80vh; */
     width: 100vw;
   }
 
@@ -689,6 +688,15 @@ footer .copyright span {
     font-weight: bold;
     padding: 0 0.4em;
   }
+
+.copyright {
+  align-content: flex-end;
+}
+
+.coperation,
+.rights {
+  margin: 0 auto;
+}
 
   .rights p {
     font-size: larger;

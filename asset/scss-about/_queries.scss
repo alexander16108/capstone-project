@@ -1,14 +1,4 @@
 @media screen and (min-width: 769px) {
-  .mobile_version {
-    display: none;
-  }
-
-  .header_text {
-    width: 100vw;
-  }
-}
-
-@media screen and (min-width: 769px) {
   /* header section */
   nav,
   .header_text {
@@ -222,7 +212,12 @@
     margin: 0%;
   }
 
-  .hide_me {
+  .header_text {
+    width: 100vw;
+  }
+
+  .hide_me,
+  .mobile_version {
     display: none;
   }
 }
