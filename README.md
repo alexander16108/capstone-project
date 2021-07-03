@@ -6,7 +6,7 @@
 
 ## Demo of the project
 - [live demo of this project](https://alexander16108.github.io/capstone-project/)
-- [live video introduction of this project](https://www.loom.com/share/e7309ccdbce241749ca6a6f7d3debdd0)
+- [live video introduction of this project](https://www.loom.com/share/0694a1bcb76a461a933b185e62fefd20)
 
 ## Getting Started
 - To get a local copy up and running follow these simple example steps.
