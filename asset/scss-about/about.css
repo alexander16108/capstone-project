@@ -1,6 +1,6 @@
 /* ADDING THE COCOGOOSE FONTS */
 @font-face {
-  font-family: 'Cocogoose';
+  font-family: "Cocogoose";
   src: url("../font/Cocogoose.ttf");
 }
 
@@ -13,7 +13,7 @@
 h1,
 h2,
 h3 {
-  font-family: 'Cocogoose';
+  font-family: "Cocogoose", sans-serif;
 }
 
 nav {
@@ -701,14 +701,14 @@ footer .copyright span {
     padding: 0 0.4em;
   }
 
-.copyright {
-  align-content: flex-end;
-}
+  .copyright {
+    align-content: flex-end;
+  }
 
-.coperation,
-.rights {
-  margin: 0 auto;
-}
+  .coperation,
+  .rights {
+    margin: 0 auto;
+  }
 
   .rights p {
     font-size: larger;
