@@ -41,7 +41,8 @@ Feel free to check the issues page.
 Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Microverse
-[Cindy Shin](https://www.behance.net/adagio07)
-[Creative Commons Licence](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+### Acknowledgments
+#### Microverse
+#### [Cindy Shin](https://www.behance.net/adagio07)
+
+#### [Creative Commons Licence](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
