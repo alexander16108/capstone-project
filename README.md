@@ -12,7 +12,7 @@
 
 ## Demo of the project
 - [live demo of this project](https://alexander16108.github.io/capstone-project/)
-- [live video introduction of this project](https://www.loom.com/share/e7309ccdbce241749ca6a6f7d3debdd0)
+- [live video introduction of this project](https://www.loom.com/share/0694a1bcb76a461a933b185e62fefd20)
 
 
 ## Getting Started
@@ -21,7 +21,7 @@
 
 
 
-$ git clone git@github.com:PolinaStamenova/Capstone-Latin-dance-page.git
+$gh repo clone alexander16108/capstone-project
 
 ## Install
 - Set up liveserver as an extension in your VS Code.
@@ -47,7 +47,8 @@ Feel free to check the issues page.
 Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Microverse
-[Cindy Shin](https://www.behance.net/adagio07)
-[Creative Commons Licence](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+### Acknowledgments
+#### Microverse
+#### [Cindy Shin](https://www.behance.net/adagio07)
+
+#### [Creative Commons Licence](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
