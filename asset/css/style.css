@@ -128,7 +128,10 @@ nav,
   color: #ec5242;
   font-weight: bold;
   line-height: 30px;
-  font-family: "Cocogoose", sans-serif;
+}
+
+.header_text h2 {
+font-family: "Lato", sans-serif;
 }
 
 .highlight {
