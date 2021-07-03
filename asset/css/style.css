@@ -1,3 +1,9 @@
+/* ADDING THE COCOGOOSE FONTS */
+@font-face {
+  font-family: 'Cocogoose';
+  src: url("myFont.woff2");
+}
+
 /* font for larger text */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 
@@ -180,16 +186,20 @@ nav,
 .content {
   background-color: #3b3e45;
   margin: 12px;
-  display: flex;
   color: #d6d6d6;
   height: 24vh;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  /* border-radius: 20px; */
+  display: flex;
 }
 
 .content p {
-  margin: 1em 0;
+  /* margin: 0 auto; */
+  /* width: 40%; */
+  font-size: 3px;
   text-align: center;
+  margin: 0%;
 }
 
 .content h3 {
@@ -197,7 +207,7 @@ nav,
   font-size: medium;
   font-weight: 400;
   font-family: "Lato", sans-serif;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .speaker-info p {
@@ -231,9 +241,6 @@ button {
 }
 
 .feature_speakers {
-  width: 100%;
-  height: 100%;
-  /* margin: 0% auto; */
   top: 0%;
   left: 0%;
 }
@@ -244,19 +251,14 @@ button {
   padding: 0%;
 }
 
-.feature-details4,
-.feature-details5,
-.feature-details6 {
-  display: none;
-}
 
 .feature-speaker {
   display: flex;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 0 10px;
   justify-content: center;
   text-align: center;
-  /* width: 100%; */
+  width: 90%;
 }
 
 .feature_speakers ul {
@@ -271,10 +273,10 @@ button {
 .feature_speakers ul li {
   list-style-type: none;
   flex-direction: column;
-  padding: 12px ;
+  padding: 12px 0;
   margin: 1em 0;
   left: 0%;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .speaker-frame {
@@ -290,6 +292,8 @@ button {
 
 .speaker-info {
   padding: 0 1.3em;
+  width: 65%;
+  /* margin: 0% auto; */
 }
 
 .speaker-info h2 {
@@ -376,8 +380,7 @@ footer .copyright span {
 @media screen and (max-width: 325px) {
   .content {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
     font-size: smaller;
   }
 
@@ -415,7 +418,11 @@ footer .copyright span {
 
   .icon_list li {
     padding: 0 1.5em;
-    font-size: smaller;
+    font-size: 20px;
+  }
+
+  .icon_list li .fab:hover{
+    color: #ec5242;
   }
 
   /* second navigation */
@@ -425,7 +432,7 @@ footer .copyright span {
     display: grid;
     grid-template-columns: 30% 70%;
     width: 100vw;
-    font-size: larger;
+
     font-weight: 600;
     justify-content: center;
     z-index: 1;
@@ -451,7 +458,8 @@ footer .copyright span {
 
   .nav-list li a {
     text-decoration: none;
-    color: #555;
+    color: #272a31;
+    font-size: 25px;
   }
 
   .nav-list li a:hover {
@@ -474,6 +482,7 @@ footer .copyright span {
     background-color: white;
     padding: 0%;
     height: 0%;
+    font-size: 22px;
     border: 2px solid #ec5242;
   }
 
@@ -494,12 +503,6 @@ footer .copyright span {
     padding: 0.3em 0;
   }
 
-  .feature-details4,
-  .feature-details5,
-  .feature-details6 {
-    display: block;
-  }
-
   .feature-speaker:hover {
     transform: scale(1.1);
   }
@@ -508,7 +511,24 @@ footer .copyright span {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 100%;
+  }
+
+.speaker-frame img {
+  width: 150px;
+}
+
+  .speaker-info {
+    width: 50%;
+    align-items: center;
+  }
+
+  .speaker-info h2,
+  .speaker-info h3 {
+    font-size: 16px;
+  }
+
+  .speaker-info p {
+    font-size: 14px;
   }
 
   .header_text h2 {
@@ -520,7 +540,7 @@ footer .copyright span {
   .highlight {
     padding: 1em;
     margin: 2em 16em 3em 0;
-    font-size: medium;
+    font-size: 25px;
   }
 
   .head h2 {
@@ -540,13 +560,13 @@ footer .copyright span {
   .content-body {
     display: flex;
     height: 30vh;
-    margin: 5em 0;
+    margin: 7em 0;
   }
 
   .content {
     flex-direction: column;
     width: 32vw;
-    height: 37vh;
+    height: 30vh;
   }
 
   .content h3 {
@@ -554,7 +574,7 @@ footer .copyright span {
   }
 
   .content p {
-    font-size: large;
+    font-size: 17px;
   }
 
   .partners ul li .fab {
@@ -569,8 +589,12 @@ footer .copyright span {
   }
 
   .coperation img {
-    width: 190px;
+    width: 150px;
     height: 130px;
+  }
+
+  .large span {
+    font-size: 42px;
   }
 
   .arabic {
