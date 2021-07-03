@@ -1,7 +1,19 @@
+/* ADDING THE COCOGOOSE FONTS */
+@font-face {
+  font-family: 'Cocogoose';
+  src: url("../font/Cocogoose.ttf");
+}
+
 * {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Cocogoose';
 }
 
 nav {
@@ -131,7 +143,7 @@ header .header-bg {
   color: #d3d3d3;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .header_text h1 {
@@ -191,7 +203,7 @@ header .header-bg {
 
 .About-logo h2 {
   color: #272a31;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: x-large;
   text-align: center;
   font-weight: 500;
@@ -217,7 +229,7 @@ header .header-bg {
 .About-logo p {
   font-size: medium;
   font-family: "Lato", sans-serif;
-  color: #686868;
+  color: #272a31;
   padding: 2em 2em;
   font-weight: lighter;
 }
@@ -234,12 +246,12 @@ header .header-bg {
 }
 
 .About-logo .line {
-  color: #a09b9b;
+  color: #272a31;
 }
 
 .content span,
 .content p {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: small;
   text-align: justify;
 }
