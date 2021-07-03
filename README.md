@@ -17,7 +17,7 @@ To get a local copy up and running follow these simple example steps.
 
 $ cd
 
-$ git clone git@github.com:PolinaStamenova/Capstone-Latin-dance-page.git
+$gh repo clone alexander16108/capstone-project
 
 ## Install
 - Set up liveserver as an extension in your VS Code.
