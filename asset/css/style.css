@@ -1,6 +1,6 @@
 /* ADDING THE COCOGOOSE FONTS */
 @font-face {
-  font-family: 'Cocogoose';
+  font-family: "Cocogoose";
   src: url("../font/Cocogoose.ttf");
 }
 
@@ -48,7 +48,7 @@ header .header-bg {
 h1,
 h2,
 h3 {
-  font-family: 'Cocogoose';
+  font-family: "Cocogoose";
 }
 
 nav,
@@ -253,7 +253,6 @@ button {
   padding: 0%;
 }
 
-
 .feature-speaker {
   display: flex;
   margin: 0 auto;
@@ -291,14 +290,13 @@ button {
   text-align: center;
 }
 
-
 .speaker-info {
   padding: 0 1.3em;
   width: 65%;
 }
 
 .speaker-info h2 {
-font-size: 16px;
+  font-size: 16px;
 }
 
 .speaker-info h3 {
@@ -422,7 +420,7 @@ footer .copyright span {
     font-size: 15px;
   }
 
-  .icon_list li .fab:hover{
+  .icon_list li .fab:hover {
     color: #ec5242;
   }
 
@@ -514,9 +512,9 @@ footer .copyright span {
     grid-template-rows: 1fr 1fr 1fr;
   }
 
-.speaker-frame img {
-  width: 150px;
-}
+  .speaker-frame img {
+    width: 150px;
+  }
 
   .speaker-info {
     width: 50%;
