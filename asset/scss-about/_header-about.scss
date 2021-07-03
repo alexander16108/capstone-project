@@ -1,0 +1,83 @@
+@import "_image";
+
+header {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background: url($assetPath);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  margin-bottom: 2em;
+
+  .header-bg {
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
+    width: 100%;
+  }
+}
+
+.mobile_version a {
+  color: #555;
+}
+
+.header_text {
+  padding-top: 2em;
+  color: #666;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  font-family: "Work Sans", sans-serif;
+
+  h1 {
+    font-size: x-large;
+    line-height: 2px;
+  }
+
+  h2 {
+    font-size: larger;
+    line-height: 30px;
+  }
+
+  h1,
+  h2 {
+    font-weight: 600;
+    text-align: center;
+    color: #e93c29;
+    font-family: "Lato", sans-serif;
+  }
+
+  .highlight {
+    background-color: rgb(255, 255, 255);
+    color: #686868;
+    border: 1px solid #a3a3a3;
+    font-weight: lighter;
+    padding: 1em;
+    font-size: small;
+    line-height: 20px;
+  }
+
+  .contact {
+    font-weight: lighter;
+    padding: 1em;
+    font-size: medium;
+    color: #fff;
+  }
+
+  .email {
+    text-align: center;
+
+    a {
+      font-weight: bold;
+      font-size: medium;
+      text-decoration: none;
+      color: #ec5242;
+    }
+
+    :hover {
+      color: #ec5242;
+    }
+  }
+}
